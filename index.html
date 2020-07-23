@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>askanniething</title>
+    <link rel="icon" href="img/logo.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd96577200.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src = "js/scripts.js">
+
+    </script>
+  </head>
+  <body data-spy='scroll' data-target='.navbar' data-offset='50'>
+
+    <header>
+      <div class="jumbotron">
+        <h2>askanniething</h2>
+        <p id="demo">Annie Chen's personal website</p>
+      </div>
+    </header>
+    <nav class = "navbar  navbar-expand-md  sticky-top ">
+        <a class = "navgar-brand" href="" id="lame"></a>
+          <div class="ml-auto">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon ml-auto"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class = "navbar-nav mx-auto">
+          <li class = "nav-item"><a class = "nav-link active" href="#about">about me</a></li>
+          <li class = "nav-item"><a class = "nav-link" href="#projects">projects</a></li>
+          <li class = "nav-item"><a class = "nav-link" href="#misc">misc</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+    <section id = "about" >
+     <img id= "aboutimg" class = img-responsive src="img/profile.jpg" alt="Annie Chen">
+     <h3>about me</h3>
+     <form>
+         <button onclick="window.open('https://www.facebook.com/askanniething','_blank')" class="btn btnabout"><i class="fab fa-facebook"></i></button>
+         <button onclick="window.open('https://www.instagram.com/askanniething/','_blank')" class="btn btnabout"><i class="fab fa-instagram"></i></button>
+         <button onclick="window.open('https://www.linkedin.com/in/askanniething/','_blank')" class="btn btnabout"><i class="fab fa-linkedin-in"></i></button>
+         <button onclick="window.open('https://github.com/askanniething','_blank')" class="btn btnabout"><i class="fab fa-github"></i></button>
+         <button onclick="window.open('mailto:askanniething@hotmail.com')" class="btn btnabout"><i class="far fa-envelope"></i></button>
+     </form>
+     <p>Hey! I'm Annie. Feel free to take a scroll around my personal website and get to know me a little better!
+       <br>Currently, I’m an incoming Computer Science student at the University of Waterloo. I’m interested in coding and math. I’m always open to a new challenge and learning new things about the world.
+       <br>Outside of school, my hobbies include bookbinding, sewing and making miniatures. I’m also passionate about social good and sustainability (especially regarding the fashion industry)!
+     </p>
+     <button type="button" onclick="window.open('https://www.facebook.com/askanniething','_blank')"name="button" class= "btn btnres" style="text-align:center;">resume</button>
+    </section>
+
+
+    <section id="projects" class = "slideanim">
+      <h3>projects</h3>
+      <p style="text-align:center;"> More coming (very) soon!</p>
+      <div class="card-deck">
+          <div class="card">
+            <div class="card-img">
+              <img class = "card-img-top" src="img/tuder.png" alt="">
+            </div>
+              <h5 class="card-title">
+                  Tuder | Defhacks 2020
+              </h5>
+            <div class="card-body d-flex flex-column">
+              <p class = "card-text"> An android application designed to bridge connections between students and tutors during social distancing times.
+                <br>Designed and prototyped in <strong>Figma </strong> and coded in Java using <strong>AndroidStudio. </strong>
+                <br>Won the <strong> 2020 Scripts Female Empowerment Award </strong></p>
+                <a href="https://github.com/haleysong576/Tuder"  class = "mt-auto"><button type="button" name="button" class = "btn btnproj mt-auto">View</button></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img class = "card-img-top" src="img/bonappletit.jpg" alt="Bon Appletit">
+            </div>
+            <h5 class="card-title">
+                Bon Appletit
+            </h5>
+            <div class="card-body d-flex flex-column">
+              <p class = "card-text"> An interactive game designed to teach children about the importance of healthy eating.
+                <br>Coded using <strong>Java</strong> using the <strong>JavaFX</strong> libraries.
+              </p>
+              <a class = "mt-auto" href="https://github.com/askanniething/Bon-Appletit"><button type="button" name="button" class = "btn btnproj mt-auto">View</button></a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id = "misc" class = "slideanim">
+      <h3>misc.</h3>
+      <p style="text-align:center">A collection of (non-coding) related things i've been obsessed with. <br> Click to view!</p>
+      <div class="card-deck">
+        <div class="card">
+          <div class="misc-img">
+            <img class = "card-img-top" src="img/sewing.jpg" alt="sewing dress ruffle">
+            <div class="overlay">
+              <h5>Sewing | Coming Soon</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="misc-img">
+            <a href="https://tinypng.com/"><img class = "card-img-top" src="img/bookbinding.jpg" alt="coptic binding bookbinding">
+            <div class="overlay"></a>
+              <h5>Bookbinding | Coming Soon</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="misc-img">
+            <img class = "card-img-top" src="img/miniatures.jpg" alt="miniature house">
+            <div class="overlay">
+              <h5>Miniatures | Coming Soon</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <form>
+            <button onclick="window.open('https://www.facebook.com/askanniething')" class="btn btnfoot"><i class="fab fa-facebook"></i></button>
+            <button onclick="window.open('https://www.instagram.com/askanniething/','_blank')" class="btn btnfoot"><i class="fab fa-instagram"></i></button>
+            <button onclick="window.open('https://www.linkedin.com/in/askanniething/','_blank')" class="btn btnfoot"><i class="fab fa-linkedin-in"></i></button>
+            <button onclick="window.open('https://github.com/askanniething','_blank')" class="btn btnfoot"><i class="fab fa-github"></i></button>
+            <button onclick="window.open('mailto:askanniething@hotmail.com')" class="btn btnfoot"><i class="far fa-envelope"></i></button>
+        </form>
+      </div>
+      <br>
+      <p>&copy;2020 askanniething</p>
+    </footer>
+  </body>
+</html>
