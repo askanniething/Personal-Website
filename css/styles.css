@@ -161,10 +161,14 @@ form{
   .card-deck {
     width: 100%;
     display: block;
+    margin-right:0px !important;
+    margin-left:0px !important;
   }
   .card{
-      margin:3% 5%;
-    }
+    margin:3% 5%;
+    margin-left: auto !important;
+    margin-right:auto !important;
+  }
 }
 h5{
   text-align:center;
