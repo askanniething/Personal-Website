@@ -1,5 +1,5 @@
 h2{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color:white;
   font-size:calc(5px + 8vw);
   letter-spacing: 2px;
@@ -7,7 +7,7 @@ h2{
 }
 
 h3{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color:#50808E;
   font-size: 50px;
   letter-spacing: 2px;
@@ -24,11 +24,11 @@ h3{
 }
 
 p{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 a.navgar-brand{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight:700;
   font-size:25px;
   text-decoration:none;
@@ -170,7 +170,7 @@ h5{
   text-align:center;
   padding-top:20px;
   color:#50808E;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btnproj{
