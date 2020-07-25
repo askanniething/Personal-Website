@@ -8,7 +8,7 @@ h2{
 
 h3{
   font-family: 'Poppins', sans-serif;
-  color:#50808E;
+  color:#264653;
   font-size: 50px;
   letter-spacing: 2px;
   text-align:center;
@@ -17,7 +17,7 @@ h3{
 
 .jumbotron{
   text-align: center;
-  background-color: #81B29A;
+  background-color: #298880;
   border-radius: 0px;
   margin-bottom:0px;
   padding:50px 10px;
@@ -25,6 +25,8 @@ h3{
 
 p{
   font-family: 'Raleway', sans-serif;
+  font-size:17px;
+  font-weight:500;
 }
 
 a.navgar-brand{
@@ -35,23 +37,23 @@ a.navgar-brand{
 }
 
 .navbar{
-  background-color:#A3C9A8;
+  background-color:#2A9D8F;
 }
 
 a{
-  color:#FBFBF2;
+  color:#EDF0F2;
 }
 
 a.navgar-brand:hover{
-  color:#D5896F;
-  background-color: #FBFBF2;
+  color:#264653;
+  background-color: #EDF0F2;
   filter:none;
   border-radius: 2%;
 }
 
 a.nav-link:hover{
-  color:#D5896F;
-  background-color: #FBFBF2;
+  color:#264653;
+  background-color: #EDF0F2;
   filter:none;
 }
 
@@ -61,13 +63,13 @@ a.nav-link:hover{
 }
 
 section{
-  background-color: #DDD8C4;
+  background-color: #DEE2E6;
   padding: 75px 5%;
   margin: 7%;
 }
 
 body{
-  background-color:#FBFBF2;
+  background-color:#EDF0F2;
 }
 
 #aboutimg{
@@ -80,8 +82,8 @@ body{
 }
 
 .btnfoot {
-  background-color: #81B29A;
-  color:#FBFBF2;
+  background-color: #298880;
+  color:#DEE2E6;
   font-size: 30px;
   position:relative;
   transition: all 0.4s ease-in-out;
@@ -92,14 +94,14 @@ body{
 }
 
 .btnfoot:hover {
-  background-color: #81B29A;
-  color:#DDD8C4;
+  background-color: #298880;
+  color:#ffffff;
   transform: scale(1.1);
 }
 
 .btnabout {
-  background-color: #DDD8C4;
-  color:#D5896F;
+  background-color: #DEE2E6;
+  color:#287271;
   font-size: 20px;
   position:relative;
   transition: all 0.4s ease-in-out;
@@ -111,15 +113,15 @@ body{
 }
 
 .btnabout:hover {
-  background-color: #DDD8C4;
-  color:#69A297;
+  background-color: #DEE2E6;
+  color:#b76367;
 }
 
 button:focus { outline: none; }
 
 footer{
   padding:20px 0px;
-  background-color: #81B29A;
+  background-color: #298880;
   text-align:center;
 
 }
@@ -134,6 +136,7 @@ form{
 
 .card-text{
   margin:10px;
+  font-size:15px;
 }
 .card-body{
   text-align:center;
@@ -142,7 +145,8 @@ form{
 .card{
   margin:3% 5%;
   max-width:25rem;
-  background-color:#FBFBF2;
+  background-color:#EDF0F2;
+  border:none;
 }
 
 .card-deck{
@@ -173,47 +177,47 @@ form{
 h5{
   text-align:center;
   padding-top:20px;
-  color:#50808E;
+  color:#264653;
   font-family: 'Poppins', sans-serif;
 }
 
 .btnproj{
-  color:#D5896F;
+  color:#287271;
   font-weight:bold;
   letter-spacing:3px;
   text-align:center;
-  background-color:#FBFBF2;
-  border:6px solid #D5896F;
+  background-color:#EDF0F2;
+  border:6px solid #287271;
   margin: auto;
   text-align:center;
   vertical-align:bottom;
 }
 
 .btnproj:hover{
-  color:#69A297;
-  border:6px solid #69A297;
+  color:#b76367;
+  border:6px solid #b76367;
 }
 
 .btnres{
-  color:#D5896F ;
+  color:#287271 ;
   font-weight:bold;
   letter-spacing:3px;
   text-align:center;
-  background-color:#DDD8C4;
-  border:6px solid #D5896F;
+  background-color:#DEE2E6;
+  border:6px solid #287271;
   margin: auto;
   display:block;
 }
 
 .btnres:hover{
-  color:#69A297;
-  border:6px solid #69A297;
+  color:#b76367;
+  border:6px solid #b76367;
 }
 
 .overlay {
   position: absolute;
   top: 50%;
-  color: #50808E;
+  color: #264653;
   width: 100%;
   transition: .5s ease-in-out;
   opacity:0;
@@ -282,7 +286,7 @@ h5{
 }
 
 .nav-link.active {
-  color: #D5896F !important;
+  color: #287271 !important;
 }
 
 
